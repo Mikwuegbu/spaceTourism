@@ -1,2 +1,5 @@
-# spaceTourism
-This is a Challenge on Frontendmentor.io to build out this multi-page space tourism website and get it looking as close to a given design as possible.
+# Frontend Mentor - Space tourism website
+
+## This is a solution to the [Space tourism website challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/space-tourism-multipage-website-gRWj1URZ3). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
+
+## Table of contents
