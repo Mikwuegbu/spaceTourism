@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Crew = () => {
-	return <div>Crew</div>;
+	return <div className="bg-bgMobileCrew min-h-screen bg-cover">Crew</div>;
 };
 
 export default Crew;
