@@ -7,11 +7,61 @@ const Navbar = () => {
 
 	return (
 		<nav className="">
-			<div className="fixed z-10 top-0 left-0 right-0 flex justify-between py-6 px-6">
-				<Link to="/" className="bg-CustomWhite rounded-full w-10 h-10">
+			<div className="fixed z-10 top-0 left-0 right-0 flex justify-between px-6 md:px-0">
+				<Link
+					to="/"
+					className="bg-CustomWhite rounded-full w-10 h-10 my-6 md:ml-10"
+				>
 					<img src={logo} alt={logo} />
 				</Link>
-				<button onClick={() => setToggle((prev) => !prev)} className="">
+
+				<div className="hidden md:flex self-center pt-9 text-white space-x-12 font-balowCondensed font-normal bg-white bg-opacity-5 pl-32 pr-10">
+					<NavLink
+						to="/"
+						className={({ isActive }) =>
+							isActive
+								? 'border-b-[5px] pb-9 border-lightBlue'
+								: 'hover:border-b-[5px] hover:border-lightBlue hover:border-opacity-40 pb-9'
+						}
+					>
+						<span className="font-bold pr-3">00</span>HOME
+					</NavLink>
+					<NavLink
+						to="/destination"
+						className={({ isActive }) =>
+							isActive
+								? 'border-b-[5px] pb-9 border-lightBlue'
+								: 'hover:border-b-[5px] hover:border-lightBlue hover:border-opacity-40 pb-9'
+						}
+					>
+						<span className="font-bold pr-3">01</span>DESTINATION
+					</NavLink>
+					<NavLink
+						to="/crew"
+						className={({ isActive }) =>
+							isActive
+								? 'border-b-[5px] pb-9 border-lightBlue'
+								: 'hover:border-b-[5px] hover:border-lightBlue hover:border-opacity-40 pb-9'
+						}
+					>
+						<span className="font-bold pr-3">02</span>CREW
+					</NavLink>
+					<NavLink
+						to="/technology"
+						className={({ isActive }) =>
+							isActive
+								? 'border-b-[5px] pb-9 border-lightBlue'
+								: 'hover:border-b-[5px] hover:border-lightBlue hover:border-opacity-40 pb-9 pr-2'
+						}
+					>
+						<span className="font-bold pr-3">03</span>TECHNOLOGY
+					</NavLink>
+				</div>
+				{/* mobile toggleButton */}
+				<button
+					onClick={() => setToggle((prev) => !prev)}
+					className="md:hidden"
+				>
 					<img
 						src={!toggle && iconhamburger}
 						alt=""
@@ -20,10 +70,11 @@ const Navbar = () => {
 				</button>
 			</div>
 
+			{/* mobile nav Items */}
 			<div
 				className={`${
 					toggle ? 'flex' : 'hidden'
-				} text-black fixed right-0 top-0 bottom-0 z-20`}
+				} text-black fixed right-0 top-0 bottom-0 z-20 md:hidden`}
 			>
 				<div className="pt-12 bg-veryDarkNavy bg-opacity-60">
 					<div className="absolute inset-0 backdrop-blur-sm z-0"></div>
@@ -40,7 +91,9 @@ const Navbar = () => {
 								<NavLink
 									to="/"
 									className={({ isActive }) =>
-										isActive ? 'border-r-[5px] border-lightBlue' : ''
+										isActive
+											? 'border-r-[4px] border-lightBlue'
+											: 'hover:border-r-[4px] hover:border-lightBlue hover:border-opacity-40'
 									}
 								>
 									<span className="font-bold px-3">00</span>HOME
@@ -48,7 +101,9 @@ const Navbar = () => {
 								<NavLink
 									to="/destination"
 									className={({ isActive }) =>
-										isActive ? 'border-r-[5px] border-lightBlue' : ''
+										isActive
+											? 'border-r-[4px] border-lightBlue'
+											: 'hover:border-r-[4px] hover:border-lightBlue hover:border-opacity-40'
 									}
 								>
 									<span className="font-bold px-3">01</span>DESTINATION
@@ -56,7 +111,9 @@ const Navbar = () => {
 								<NavLink
 									to="/crew"
 									className={({ isActive }) =>
-										isActive ? 'border-r-[5px] border-lightBlue' : ''
+										isActive
+											? 'border-r-[4px] border-lightBlue'
+											: 'hover:border-r-[4px] hover:border-lightBlue hover:border-opacity-40'
 									}
 								>
 									<span className="font-bold px-3">02</span>CREW
@@ -64,7 +121,9 @@ const Navbar = () => {
 								<NavLink
 									to="/technology"
 									className={({ isActive }) =>
-										isActive ? 'border-r-[5px] border-lightBlue' : ''
+										isActive
+											? 'border-r-[4px] border-lightBlue'
+											: 'hover:border-r-[4px] hover:border-lightBlue hover:border-opacity-40'
 									}
 								>
 									<span className="font-bold px-3">03</span>TECHNOLOGY

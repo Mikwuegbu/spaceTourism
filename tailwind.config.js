@@ -17,7 +17,7 @@ export default {
 			},
 			backgroundImage: {
 				bgDesktopHome: 'url()',
-				bgTabletHome: 'url()',
+				bgTabletHome: 'url("./src/assets/home/background-home-tablet.jpg")',
 				bgMobileHome: 'url("./src/assets/home/background-home-mobile.jpg")',
 				bgMobileDestination:
 					'url("./src/assets/destination/background-destination-mobile.jpg")',
