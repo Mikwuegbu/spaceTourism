@@ -15,6 +15,9 @@ export default {
 				balowCondensed: ['Barlow Condensed', 'sans-serif'],
 				balowRegular: ['Barlow', 'sans-serif'],
 			},
+			outlineWidth: {
+				88: '88px',
+			},
 			backgroundImage: {
 				bgDesktopHome: 'url("./src/assets/home/background-home-desktop.jpg")',
 				bgTabletHome: 'url("./src/assets/home/background-home-tablet.jpg")',
