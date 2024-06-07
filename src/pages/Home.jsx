@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 const Home = () => (
 	<div className="bg-bgMobileHome bg-cover min-h-screen md:bg-bgTabletHome lg:bg-bgDesktopHome">
 		<div className="flex flex-col lg:flex-row justify-center lg:justify-between px-6 lg:px-40 text-center pt-36 lg:pt-80 md:pt-52 text-white space-y-6 pb-24">
-			<div className="lg:w-[68%]">
+			<div className="lg:w-[58%]">
 				<div className="font-balowCondensed text-2xl md:text-4xl lg:text-3xl font-normal leading-4 text-lightBlue">
 					SO, YOU WANT TO TRAVEL TO
 				</div>
@@ -19,7 +19,7 @@ const Home = () => (
 			</div>
 			<Link
 				to="/destination"
-				className="hover:outline hover:outline-88 rounded-full h-36 md:h-64 md:w-64 w-36 hover:outline-white/10 place-content-center bg-white text-veryDarkNavy self-center md:text-3xl"
+				className="hover:outline hover:outline-88 rounded-full h-36 md:h-64 md:w-64 w-36 hover:outline-white/10 place-content-center bg-white text-veryDarkNavy self-center lg:self-auto md:text-3xl"
 			>
 				EXPLORE
 			</Link>
