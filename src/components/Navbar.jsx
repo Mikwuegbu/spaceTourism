@@ -7,15 +7,20 @@ const Navbar = () => {
 
 	return (
 		<nav className="">
-			<div className="fixed z-10 top-0 left-0 right-0 flex justify-between px-6 md:px-0">
-				<Link
-					to="/"
-					className="bg-CustomWhite rounded-full w-10 h-10 my-6 md:ml-10"
-				>
-					<img src={logo} alt={logo} />
-				</Link>
-
-				<div className="hidden md:flex self-center pt-9 text-white space-x-12 font-balowCondensed font-normal bg-white bg-opacity-5 pl-32 pr-10">
+			<div className="fixed z-10 top-0 left-0 right-0 flex justify-between px-6 md:px-0 lg:py-10">
+				<div className="flex ">
+					<Link
+						to="/"
+						className="bg-CustomWhite rounded-full w-10 h-10 my-6 md:ml-10 lg:ml-16"
+					>
+						<img src={logo} alt={logo} />
+					</Link>
+					{/* <div className="hidden lg:flex self-center absolute border-white opacity-25 w-full">
+						<div className=" border w-[560px] h-0 "></div>
+					</div> */}
+				</div>
+				<div className="relative hidden md:flex max-w-[640px] lg:max-w-[736px] self-center pt-9 text-white space-x-12 font-balowCondensed font-normal bg-white bg-opacity-5 pl-24 lg:pl-40 pr-12 lg:pr-16">
+					<div className="absolute inset-0 backdrop-blur-lg -z-10"></div>
 					<NavLink
 						to="/"
 						className={({ isActive }) =>
@@ -51,7 +56,7 @@ const Navbar = () => {
 						className={({ isActive }) =>
 							isActive
 								? 'border-b-[5px] pb-9 border-lightBlue'
-								: 'hover:border-b-[5px] hover:border-lightBlue hover:border-opacity-40 pb-9 pr-2'
+								: 'hover:border-b-[5px] hover:border-lightBlue hover:border-opacity-40 pb-9 pr-2 w-full'
 						}
 					>
 						<span className="font-bold pr-3">03</span>TECHNOLOGY
