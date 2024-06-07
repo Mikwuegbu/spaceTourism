@@ -17,6 +17,7 @@ export default {
 			},
 			outlineWidth: {
 				88: '88px',
+				176: '176',
 			},
 			backgroundImage: {
 				bgDesktopHome: 'url("./src/assets/home/background-home-desktop.jpg")',
