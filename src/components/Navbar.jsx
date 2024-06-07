@@ -7,7 +7,8 @@ const Navbar = () => {
 
 	return (
 		<nav className="">
-			<div className="fixed z-10 top-0 left-0 right-0 flex justify-between px-6 md:px-0 lg:py-10">
+			<div className="fixed z-10 top-0 left-0 right-0 flex justify-between px-6 md:px-0 lg:py-10 bg-veryDarkNavy bg-opacity-80">
+				<div className="absolute inset-0 backdrop-blur-sm -z-10"></div>
 				<div className="flex ">
 					<Link
 						to="/"
