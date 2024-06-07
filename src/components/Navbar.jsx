@@ -11,7 +11,7 @@ const Navbar = () => {
 				<div className="flex ">
 					<Link
 						to="/"
-						className="bg-CustomWhite rounded-full w-10 h-10 my-6 md:ml-10 lg:ml-16"
+						className="bg-CustomWhite rounded-full w-10 h-10 my-6 md:ml-12 lg:ml-16"
 					>
 						<img src={logo} alt={logo} />
 					</Link>
