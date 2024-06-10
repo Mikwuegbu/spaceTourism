@@ -7,7 +7,7 @@ const Navbar = () => {
 
 	return (
 		<nav className="">
-			<div className="fixed z-10 top-0 left-0 right-0 flex justify-between px-6 md:px-0 lg:py-10 bg-veryDarkNavy bg-opacity-80 md:bg-opacity-0">
+			<div className="fixed z-10 top-0 left-0 right-0 flex justify-between px-6 md:px-0 lg:py-10 bg-veryDarkNavy bg-opacity-30 md:bg-opacity-0">
 				<div className="md:hidden absolute inset-0 backdrop-blur-sm -z-10"></div>
 				<div className="flex ">
 					<Link
@@ -69,7 +69,7 @@ const Navbar = () => {
 					className="md:hidden"
 				>
 					<img
-						src={!toggle && iconhamburger}
+						src={!toggle ? iconhamburger : undefined}
 						alt=""
 						className={`w-6 h-5 ${toggle ? 'hidden' : 'block'}`}
 					/>
@@ -87,7 +87,7 @@ const Navbar = () => {
 					<div>
 						<button onClick={() => setToggle((prev) => !prev)}>
 							<img
-								src={toggle && iconclose}
+								src={toggle ? iconclose : undefined}
 								alt={iconclose}
 								className="w-6 h-5 absolute right-6 top-8"
 							/>
