@@ -67,12 +67,12 @@ const Destination = () => {
 						<h1 className="font-Bellefair font-normal text-6xl md:text-[80px]">
 							{currentDestination.name.toUpperCase()}
 						</h1>
-						<p className="font-balowCondensed text-lightBlue pb-2 px-20">
+						<p className="font-balowCondensed text-lightBlue pb-2 md:px-20">
 							{currentDestination.description}
 						</p>
 						<div className="border border-white opacity-25 md:mx-24" />
 					</div>
-					<div className="space-y-6 md:space-y-0 md:flex space-x-64">
+					<div className="space-y-6 md:space-y-0 md:flex md:space-x-64">
 						<div className="space-y-3">
 							<p className="font-balowCondensed font-normal text-lightBlue">
 								AVG. DISTANCE
