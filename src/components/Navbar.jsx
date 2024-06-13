@@ -7,7 +7,7 @@ const Navbar = () => {
 
 	return (
 		<nav className="">
-			<div className="fixed z-10 top-0 left-0 right-0 flex justify-between px-6 md:px-0 lg:py-10 bg-veryDarkNavy bg-opacity-30 md:bg-opacity-0">
+			<div className="flex absolute left-0 right-0 justify-between px-6 md:px-0 lg:py-10 md:bg-opacity-0">
 				<div className="md:hidden absolute inset-0 backdrop-blur-sm -z-10"></div>
 				<div className="flex ">
 					<Link
