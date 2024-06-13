@@ -37,18 +37,18 @@ const Crew = () => {
 
 	return (
 		<div className="bg-bgMobileCrew md:bg-bgTabletCrew lg:bg-bgDesktopCrew min-h-screen bg-cover">
-			<div className="pt-36 px-3 text-white">
-				<div className="font-balowCondensed text-center text-base font-normal text-white">
+			<div className="pt-36 px-10 text-white">
+				<div className="font-balowCondensed text-base md:text-xl font-normal text-white">
 					<span className="font-bold opacity-25 px-4">02</span>
 					MEET YOUR CREW
 				</div>
-				<div className="">
-					<div className="flex flex-col items-center text-center py-16">
-						<div className="space-y-1.5">
-							<p className="font-Bellefair font-normal text-lg opacity-50">
+				<div className="md:px-20">
+					<div className="flex flex-col items-center text-center py-16 ">
+						<div className="space-y-1.5 md:space-y-4">
+							<p className="font-Bellefair font-normal text-lg md:text-2xl opacity-50">
 								{currentCrew.role.toUpperCase()}
 							</p>
-							<h2 className="font-Bellefair font-normal text-2xl">
+							<h2 className="font-Bellefair font-normal text-2xl md:text-4xl">
 								{currentCrew.name.toUpperCase()}
 							</h2>
 						</div>
@@ -71,11 +71,11 @@ const Crew = () => {
 							})}
 						</div>
 					</div>
-					<div className="flex justify-center w-full py-6 px-6">
+					<div className="flex justify-center w-full py-6 md:py-0 px-6">
 						<img
 							src={currentCrew.images.webp}
 							alt=""
-							className="w-[271.24px] h-[340px]"
+							className="w-[271.24px] h-[340px] md:w-[446.74px] md:h-[560px]"
 						/>
 					</div>
 				</div>
