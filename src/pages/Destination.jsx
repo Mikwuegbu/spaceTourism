@@ -46,7 +46,7 @@ const Destination = () => {
 					<img
 						src={currentDestination.images.webp}
 						alt={currentDestination.name}
-						className="h-36 w-36 md:h-[300px] md:w-[300px] lg:h-[480px] lg:w-[480px] my-6"
+						className="h-36 w-36 md:h-[300px] md:w-[300px] lg:h-[480px] lg:w-[480px] my-6 md:my-10"
 					/>
 					<div className="lg:pl-12">
 						<div className="space-x-8 space-y-4 md:space-y-8">
@@ -64,7 +64,7 @@ const Destination = () => {
 								</button>
 							))}
 						</div>
-						<div className="py-6 md:py-8 space-y-4">
+						<div className="py-6 md:py-8 space-y-4 md:px-6">
 							<h1 className="font-Bellefair font-normal text-6xl md:text-[80px]">
 								{currentDestination.name.toUpperCase()}
 							</h1>
@@ -73,7 +73,7 @@ const Destination = () => {
 							</p>
 							<div className="border border-white opacity-25 md:mx-24 lg:mx-0" />
 						</div>
-						<div className="space-y-6 md:space-y-0 md:flex md:justify-between md:px-24 lg:px-0">
+						<div className="space-y-6 md:space-y-0 md:flex md:justify-around md:px-24 lg:px-0">
 							<div className="space-y-3">
 								<p className="font-balowCondensed font-normal text-lightBlue">
 									AVG. DISTANCE
