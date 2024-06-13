@@ -42,13 +42,13 @@ const Destination = () => {
 					<span className="font-bold opacity-25 pr-4">01</span>
 					PICK YOUR DESTINATION
 				</div>
-				<div className="py-6 lg:py-20 flex flex-col lg:space-x-6 items-center text-center lg:text-justify lg:flex-row">
+				<div className="py-6 lg:py-20 flex flex-col items-center lg:space-x-24 text-center lg:text-justify lg:flex-row">
 					<img
 						src={currentDestination.images.webp}
 						alt={currentDestination.name}
 						className="h-36 w-36 md:h-[300px] md:w-[300px] lg:h-[480px] lg:w-[480px] my-6 md:my-10"
 					/>
-					<div className="lg:pl-12">
+					<div className="">
 						<div className="space-x-8 space-y-4 md:space-y-8">
 							{state.destinations.map((destination, index) => (
 								<button
@@ -64,7 +64,7 @@ const Destination = () => {
 								</button>
 							))}
 						</div>
-						<div className="py-6 md:py-8 space-y-4 md:px-6">
+						<div className="py-6 md:py-8 space-y-4 md:px-6 lg:px-0">
 							<h1 className="font-Bellefair font-normal text-6xl md:text-[80px]">
 								{currentDestination.name.toUpperCase()}
 							</h1>
@@ -73,8 +73,8 @@ const Destination = () => {
 							</p>
 							<div className="border border-white opacity-25 md:mx-24 lg:mx-0" />
 						</div>
-						<div className="space-y-6 md:space-y-0 md:flex md:justify-around md:px-24 lg:px-0">
-							<div className="space-y-3">
+						<div className="space-y-6 md:space-y-0 md:flex md:justify-around lg:justify-start md:px-24 lg:px-0 lg:space-x-6">
+							<div className="space-y-3 lg:pr-6 text-nowrap">
 								<p className="font-balowCondensed font-normal text-lightBlue">
 									AVG. DISTANCE
 								</p>
@@ -82,7 +82,7 @@ const Destination = () => {
 									{currentDestination.distance}
 								</p>
 							</div>
-							<div className="space-y-3">
+							<div className="space-y-3 lg:px-6 text-nowrap">
 								<p className="font-balowCondensed font-normal text-lightBlue">
 									EST. TRAVEL TIME
 								</p>
