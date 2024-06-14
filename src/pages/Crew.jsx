@@ -42,8 +42,8 @@ const Crew = () => {
 					<span className="font-bold opacity-25 px-4">02</span>
 					MEET YOUR CREW
 				</div>
-				<div className="md:px-20 lg:px-0 lg:flex lg:items-center lg:space-x-10">
-					<div className="flex flex-col items-center lg:items-start text-center lg:text-justify py-16 lg:px-8">
+				<div className="md:px-20 lg:px-0 lg:flex lg:items-center lg:space-x-16">
+					<div className="flex flex-col lg:w-full items-center lg:items-start text-center lg:text-justify py-8 lg:py-16 lg:px-2">
 						<div className="space-y-1.5 md:space-y-4">
 							<p className="font-Bellefair font-normal text-lg md:text-2xl opacity-50">
 								{currentCrew.role.toUpperCase()}
