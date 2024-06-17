@@ -15,7 +15,7 @@ const App = () => {
 	useEffect(() => {
 		setTimeout(() => {
 			setLoading(false);
-		}, 100);
+		}, 2800);
 	}, []);
 
 	//condtions for loading animations on loading
