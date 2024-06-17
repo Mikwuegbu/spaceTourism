@@ -44,7 +44,7 @@ const Destination = () => {
 				</div>
 				<div className="py-6 lg:py-20 flex flex-col items-center lg:space-x-24 text-center lg:text-justify lg:flex-row">
 					<img
-						src={currentDestination.images.png}
+						src={currentDestination.images.webp}
 						alt={currentDestination.name}
 						className="h-36 w-36 md:h-[300px] md:w-[300px] lg:h-[480px] lg:w-[480px] my-6 md:my-10"
 					/>
