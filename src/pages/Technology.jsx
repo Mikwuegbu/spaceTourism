@@ -50,23 +50,33 @@ const Technology = () => {
 							className="w-[768px] h-[258px]"
 						/>
 					</div>
-					<div className="space-x-4">
+					<div className="space-x-4 py-8 flex justify-center">
 						{state.technologies.map((technology, index) => (
 							<button
 								key={technology.name}
-								className="bg-white px-6"
+								className={`w-10 h-10 rounded-full ${
+									state.currentIndex == index
+										? 'bg-white'
+										: 'text-white border border-gray-500 hover:border-white'
+								}`}
 								onClick={() => setTechnology(index)}
 							>
 								{index + 1}
 							</button>
 						))}
 					</div>
-					<div>
-						<p className="text-white">THE TERMINOLOGY...</p>
-						<h2 className="text-white">
-							{currentTechnology.name.toUpperCase()}
-						</h2>
-						<p className="text-white">{currentTechnology.description}</p>
+					<div className="text-center py-4">
+						<div className="space-y-4">
+							<p className="text-white font-normal font-Bellefair opacity-50 text-lg">
+								THE TERMINOLOGY...
+							</p>
+							<h2 className="text-white font-Bellefair font-normal text-2xl">
+								{currentTechnology.name.toUpperCase()}
+							</h2>
+						</div>
+						<p className="text-lightBlue font-balowRegular font-normal px-4 py-4">
+							{currentTechnology.description}
+						</p>
 					</div>
 				</div>
 			</div>

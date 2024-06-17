@@ -68,7 +68,7 @@ const Destination = () => {
 							<h1 className="font-Bellefair font-normal text-6xl md:text-[80px]">
 								{currentDestination.name.toUpperCase()}
 							</h1>
-							<p className="font-balowCondensed text-lightBlue lg:text-lg pb-2 md:px-20 lg:px-0">
+							<p className="font-balowRegular text-lightBlue lg:text-lg pb-2 md:px-20 lg:px-0">
 								{currentDestination.description}
 							</p>
 							<div className="border border-white opacity-25 md:mx-24 lg:mx-0" />
