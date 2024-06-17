@@ -37,7 +37,7 @@ const Technology = () => {
 
 	return (
 		<div className="bg-bgMobileTechnology md:bg-bgTabletTechnology lg:bg-bgDesktopTechnology min-h-screen bg bg-cover">
-			<div className="pt-36">
+			<div className="pt-36 lg:pt-44">
 				<div className="font-balowCondensed text-center md:text-justify text-base font-normal text-white md:pl-10 md:text-xl lg:ml-[115px]">
 					<span className="font-bold opacity-25 px-3">03</span>
 					SPACE LAUNCH 101
@@ -47,7 +47,7 @@ const Technology = () => {
 						<img
 							src={currentTechnology.images.landscape}
 							alt=""
-							className="w-[768px] h-[258px] md:w-full md:h-full "
+							className="w-[768px] h-[258px] md:w-full md:h-full"
 						/>
 					</div>
 					<div className="space-x-4 py-8 flex justify-center lg:space-x-0 lg:space-y-8 lg:order-1 lg:flex-col">
