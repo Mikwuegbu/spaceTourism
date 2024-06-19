@@ -5,7 +5,7 @@ import Destination from './pages/Destination';
 import Crew from './pages/Crew';
 import Technology from './pages/Technology';
 import ErrorPage from './pages/ErrorPage';
-import { loader } from './assets/assets';
+import { loader } from './components/assets';
 import { useState, useEffect } from 'react';
 
 const App = () => {
@@ -15,7 +15,7 @@ const App = () => {
 	useEffect(() => {
 		setTimeout(() => {
 			setLoading(false);
-		}, 2800);
+		}, 200);
 	}, []);
 
 	//condtions for loading animations on loading

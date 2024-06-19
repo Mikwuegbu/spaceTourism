@@ -35,6 +35,10 @@ const Destination = () => {
 	//this is the current state of the state Object
 	const currentDestination = state.destinations[state.currentIndex];
 
+	// const importImage = (path) => {
+	// 	return new URL(`/src/assets/${path}`, import.meta.url).href;
+	// };
+
 	return (
 		<div className="bg-bgMobileDestination bg-cover min-h-screen md:bg-bgTabletDestination lg:bg-bgDesktopDestination">
 			<div className="pt-36 lg:pt-44 px-4 lg:px-40 md:px-10 text-white flex flex-col items-center md:items-start">

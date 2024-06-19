@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { Link, NavLink } from 'react-router-dom';
-import { iconclose, iconhamburger, logo } from '../assets/assets';
+import { iconclose, iconhamburger, logo } from './assets';
 
 const Navbar = () => {
 	const [toggle, setToggle] = useState(false);

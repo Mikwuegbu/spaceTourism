@@ -1,7 +1,7 @@
 /** @type {import('tailwindcss').Config} */
 
 export default {
-	content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
+	content: ['./index.html', './**/*.{js,ts,jsx,tsx}'],
 	theme: {
 		extend: {
 			colors: {
@@ -20,24 +20,24 @@ export default {
 				176: '176',
 			},
 			backgroundImage: {
-				bgDesktopHome: 'url("/src/assets/home/background-home-desktop.jpg")',
-				bgTabletHome: 'url("/src/assets/home/background-home-tablet.jpg")',
-				bgMobileHome: 'url("/src/assets/home/background-home-mobile.jpg")',
+				bgDesktopHome: 'url("/assets/home/background-home-desktop.jpg")',
+				bgTabletHome: 'url("/assets/home/background-home-tablet.jpg")',
+				bgMobileHome: 'url("/assets/home/background-home-mobile.jpg")',
 				bgDesktopDestination:
-					'url("/src/assets/destination/background-destination-desktop.jpg")',
+					'url("/assets/destination/background-destination-desktop.jpg")',
 				bgTabletDestination:
-					'url("/src/assets/destination/background-destination-tablet.jpg")',
+					'url("/assets/destination/background-destination-tablet.jpg")',
 				bgMobileDestination:
-					'url("/src/assets/destination/background-destination-mobile.jpg")',
-				bgDesktopCrew: 'url("/src/assets/crew/background-crew-desktop.jpg")',
-				bgTabletCrew: 'url("/src/assets/crew/background-crew-tablet.jpg")',
-				bgMobileCrew: 'url("/src/assets/crew/background-crew-mobile.jpg")',
+					'url("/assets/destination/background-destination-mobile.jpg")',
+				bgDesktopCrew: 'url("/assets/crew/background-crew-desktop.jpg")',
+				bgTabletCrew: 'url("/assets/crew/background-crew-tablet.jpg")',
+				bgMobileCrew: 'url("/assets/crew/background-crew-mobile.jpg")',
 				bgDesktopTechnology:
-					'url("/src/assets/technology/background-technology-desktop.jpg")',
+					'url("/assets/technology/background-technology-desktop.jpg")',
 				bgTabletTechnology:
-					'url("/src/assets/technology/background-technology-tablet.jpg")',
+					'url("/assets/technology/background-technology-tablet.jpg")',
 				bgMobileTechnology:
-					'url("/src/assets/technology/background-technology-mobile.jpg")',
+					'url("/assets/technology/background-technology-mobile.jpg")',
 			},
 		},
 	},
