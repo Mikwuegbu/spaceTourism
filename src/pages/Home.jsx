@@ -17,12 +17,14 @@ const Home = () => (
 					this world experience!
 				</div>
 			</div>
-			<Link
-				to="/destination"
-				className="hover:outline hover:outline-88 rounded-full h-36 md:h-64 md:w-64 w-36 hover:outline-white/10 place-content-center bg-white text-veryDarkNavy self-center lg:self-auto md:text-3xl text-center"
-			>
-				EXPLORE
-			</Link>
+			<div className="flex justify-center ">
+				<Link
+					to="/destination"
+					className="flex justify-center items-center hover:outline hover:outline-88 rounded-full h-36 md:h-64 md:w-64 w-36 hover:outline-white/10 place-content-center bg-white text-veryDarkNavy lg:self-auto md:text-3xl text-center"
+				>
+					EXPLORE
+				</Link>
+			</div>
 		</div>
 	</div>
 );
