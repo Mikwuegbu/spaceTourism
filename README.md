@@ -2,19 +2,6 @@
 
 ## This is a solution to the [Space tourism website challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/space-tourism-multipage-website-gRWj1URZ3). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
-## Table of contents
-
-- [Overview](#overview)
-  - [The challenge](#the-challenge)
-  - [Links](#links)
-- [My process](#my-process)
-  - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
-- [Author](#author)
-- [Acknowledgments](#acknowledgments)
-
 ### The challenge
 
 Users should be able to:
@@ -25,5 +12,16 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/space-tourism-multipage-website-built-using-reactvite-tailwindcss-vyYuc5Hy-9)
+- Live Site URL: [Add live site URL here](https://space-tourism-ten-zeta.vercel.app/)
+
+### Built with
+
+- Semantic HTML5 markup
+- CSS custom properties
+- tailwindCss
+- Mobile-first workflow
+- [React](https://reactjs.org/) - JS library
+
+- Frontend Mentor - [@Mikwuegbu](https://www.frontendmentor.io/profile/Mikwuegbu)
+- Twitter - [@MarkIkwuegbu](https://www.twitter.com/MarkIkwuegbu)
